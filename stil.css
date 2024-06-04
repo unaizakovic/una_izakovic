@@ -1,0 +1,44 @@
+@charset "utf-8"
+p{
+	color: green;
+	font-family: Constania, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+    line-height: 18px; 
+    width: 600px;
+    background-color: antiquewhite;
+    padding: 20px;    	
+}
+paragraf_2 {color:darkcyan; background-color: rgba:(255, 255, 255, 0.9)}
+novi_blok {
+	background-color: rgba:(255, 255, 255, 0.5)
+	padding:20px; 
+	margin:20px;
+	width:50%;
+}
+h1, h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:cadetblue;
+}
+
+span{color: rgb:(255, 0, 255);}
+pozadina{
+	background-image: url(slike/Monet and Chicago _ The Art Institute of Chicago.jfif);
+}
+
+drugapozadina{
+	background-color: darkgray
+} 
+a: link {
+	color: black;
+	background-color: white;
+    padding: 5px;
+    line-height: 40px;
+    border:1px solid #000000; 		
+}
+
+a:hover {
+	background-color: darkgray;
+}
+img {
+	height: 200px; 
+}
