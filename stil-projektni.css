@@ -1,0 +1,87 @@
+@charset "utf-8"
+p{
+	color: green;
+	font-family: Constania, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+    line-height: 18px; 
+    width: 600px;
+    background-color: antiquewhite;
+    padding: 20px;    	
+}
+.ime{
+	font-size: 80px;
+	line-height: 18px;
+	width: 600px
+    font-family: "unaizakovic";
+    src:url("dokumenti/unaizakovic.ttf")	
+}
+
+.naslov{
+	color:rgba(0, 128, 128, 1);
+	font-family: "AveriaSerifLibre-LightItalic";
+	src:url ("dokumenti/AveriaSerifLibre-LightItalic.ttf")
+}
+
+.naslov_2{
+	color: rgba(72, 61, 139, 1);
+	font-family: "AveriaSerifLibre-LightItalic";
+	src:url ("dokumenti/AveriaSerifLibre-LightItalic.ttf")
+}
+
+.paragraf_2 {
+	color:rgba(48, 25, 52, 1); background-color: rgba(255, 192, 203, 0.5);
+    font-size: 18px;        
+}
+
+.paragraf_3 {
+	color:rgba(75, 0, 130, 1); background-color: rgba(255, 192, 203, 0.5);
+	font-size: 18px
+}
+
+.paragraf_4{
+	color: rgba(0, 128, 128, 1);
+	font-size: 18px
+}
+h1, h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color:cadetblue;
+}
+
+span{color: rgb(255, 0, 255);}
+.pozadina{
+	background-image: url("slike/preuzmi (10).jfif");
+}
+
+.drugapozadina{
+	background-image: url("slike/preuzmi (9).jfif");
+} 
+
+.trecapozadina{
+	background-image: url("slike/preuzmi (12).jfif");
+}
+
+a:link {
+	color: rgba(205, 133, 145, 1);
+	background-color: white;
+    padding: 5px;
+    line-height: 40px; 		
+}
+
+    li {
+	display:inline;
+	background-color: rgba(255, 192, 203, 1);
+}
+    li:active {background-color: rgb(255, 209, 220, 0.2);}
+	    li a {
+			color:white;
+			text-transform: uppercase;
+		}
+    li a:link {text-decoration:none:}
+	li a:hover {text-decoration:underline;}
+
+a:hover {
+	background-color: rgba(255, 182, 193, 0.2);
+}
+img {
+	height: 200px; 
+}
